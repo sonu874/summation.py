@@ -3,15 +3,17 @@
 def summation(l,p,s):
     m=[];i=0
     
-    while i <len(l):
+   while i<len(l):
         m=l[i:p]
-        if sum(m)==j:
+        if sum(m==s):
             print(m)
             i=i+1
             p+=1
-        else:
+         else:
             i=i+1
             p=p+1
+   
+
 #main
 l=[]
 n=int(input("enter length of array:"))
